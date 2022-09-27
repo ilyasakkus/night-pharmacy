@@ -4,7 +4,7 @@ function getlist(){
     method: 'GET',
     headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer Najo2GWhgdPw81ScW93TnkKFtEJMIwM70haofhNjtADrF5GdXS3CGgQ0OCCI'
+        'Authorization': 'Bearer APIKEY'
     }
 })
         .then(function(res) {
