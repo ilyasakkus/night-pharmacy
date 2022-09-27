@@ -1,0 +1,123 @@
+<html>
+<head>
+    <title>Nöbetçi Eczane Listesi</title>
+    <meta http-equiv="Content-type" content="initial-scale=1.0, width=device-width text/html; charset=UTF-8">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+   
+    <script language="JavaScript" type="text/javascript" src="main.js"></script>
+
+</head>
+<body style="background-color: rgb(219, 237, 253);">
+    <h1 class="eczanemain"><img src="ecz.png" width="100px" height="100px"> <select id="city" onload="getlist()" onchange="getlist()" style="color:black"><option value="İstanbul">İstanbul</option><option value="Ankara">Ankara</option><option value="Malatya">Malatya</option></select> Nöbetçi Eczaneler</h1>
+    <div class="container">
+                <div class="board" style="background-color: rgb(219, 237, 253);">
+                    <!-- <h2>Welcome to IGHALO!<sup>™</sup></h2>-->
+                    <div class="board-inner">
+                      <ul class="nav nav-tabs" id="myTab">
+                        <div class="liner"></div>
+                        <li class="active">
+                          <a href="#first" data-toggle="tab" title="Nöbetçi Eczane">
+                            <span class="round-tabs one">
+                              <i class="glyphicon glyphicon-map-marker"></i>
+                            </span> 
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#second" data-toggle="tab" title="Nöbetçi Eczane">
+                            <span class="round-tabs two">
+                              <i class="glyphicon glyphicon-map-marker"></i>
+                            </span> 
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#third" data-toggle="tab" title="Nöbetçi Eczane">
+                            <span class="round-tabs three">
+                              <i class="glyphicon glyphicon-map-marker"></i>
+                            </span> 
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#forth" data-toggle="tab" title="Nöbetçi Eczane">
+                            <span class="round-tabs four">
+                              <i class="glyphicon glyphicon-map-marker"></i>
+                            </span> 
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#fifth" data-toggle="tab" title="Nöbetçi Eczane">
+                            <span class="round-tabs five">
+                              <i class="glyphicon glyphicon-map-marker"></i>
+                            </span> 
+                        </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- board-inner -->
+                    <div class="tab-content">
+                      <div class="tab-pane fade in active" id="first">
+                        <img src="ecz.png" width="50px" height="50px" style="display: block; margin: auto;"></img> <br><h3 class="head text-center" id="firstecz"></h3>
+                        <p class="narrow text-center" id="firsteczadres">
+                        </p>
+                        <p class="narrow text-center" id="firsteczyol">
+                        </p>
+                        <p class="narrow text-center" id="firstecztel">
+                        </p>      
+
+                      </div>
+                      <div class="tab-pane fade" id="second">
+                        <img src="ecz.png" width="50px" height="50px" style="display: block; margin: auto;"></img><h3 class="head text-center" id="sececz"></h3>
+                        <p class="narrow text-center" id="sececzadres">
+                        </p>
+                        <p class="narrow text-center" id="sececzyol">
+                        </p>
+                        <p class="narrow text-center" id="sececztel">
+                        </p>      
+
+                      </div>
+                      <div class="tab-pane fade" id="third">
+                        <img src="ecz.png" width="50px" height="50px" style="display: block; margin: auto;"></img> <h3 class="head text-center" id="thirdecz"></h3>
+                        <p class="narrow text-center" id="thirdeczadres">
+                        </p>
+                        <p class="narrow text-center" id="thirdeczyol">
+                        </p>
+                        <p class="narrow text-center" id="thirdecztel">
+                        </p>      
+
+                      </div>
+                      <div class="tab-pane fade" id="forth">
+                        <img src="ecz.png" width="50px" height="50px" style="display: block; margin: auto;"></img> <h3 class="head text-center" id="forthecz"></h3>
+                        <p class="narrow text-center" id="fortheczadres">
+                        </p>
+                        <p class="narrow text-center" id="fortheczyol">
+                        </p>
+                        <p class="narrow text-center" id="forthecztel">
+                        </p>      
+
+                      </div>
+                      <div class="tab-pane fade" id="fifth">
+                        <div class="text-center">
+                          <i class="img-intro icon-checkmark-circle"></i>
+                        </div>
+                        <img src="ecz.png" width="50px" height="50px" style="display: block; margin: auto;"></img><h3 class="head text-center" id="fifthecz"></h3>
+                        <p class="narrow text-center" id="fiftheczadres">
+                        </p>
+                        <p class="narrow text-center" id="fiftheczyol">
+                        </p>
+                        <p class="narrow text-center" id="fifthecztel">
+                        </p>      
+
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                    <!-- tab-content -->
+    
+                </div>
+                <!-- board -->
+            </div>
+          
+       
+</html>
