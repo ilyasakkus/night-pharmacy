@@ -15,6 +15,10 @@ Arayüz daha güzelleştirilebilir.
 
 ----
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/5075880/192529934-7aeed34a-8b80-4440-b212-531dde7bb528.gif)
+
+----
+
 # 24 Hours Pharmacy App (Night Pharmacies)
 
 With an interface developed using the Nosy API, the pharmacy list on duty on the basis of province or district is displayed to the end user in an auto cycle.
@@ -31,5 +35,4 @@ The interface can be made more beautiful.
 
 - When a dashboard is added to the background, the province and import data can be pulled and edited from there, and the interface can be simplified even more.
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/5075880/192529934-7aeed34a-8b80-4440-b212-531dde7bb528.gif)
 
